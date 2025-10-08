@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  let timer_ = Math.floor(new Date("2025-09-19T09:00:00+07:00").getTime() / 1000); // Unix timestamp
+  let timer_ = Math.floor(new Date("2025-10-10T09:00:00+07:00").getTime() / 1000); // Unix timestamp
   let flipdown = new FlipDown(timer_);
   flipdown.start();
   flipdown.ifEnded(() => {
